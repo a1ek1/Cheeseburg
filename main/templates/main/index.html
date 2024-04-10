@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block modal_cart %}
+{% include "includes/cart_button.html" %}
+{% endblock  %}
+
+{% block content %}
+    <img class="centered" src="{% static "deps/images/banner.jpg" %}" alt="...">
+    <class="container">
+        <p></p>
+        <h1 class="content_title">Большое разнообразие продукции</h1>
+        <p class="section_text">
+            Мы гордимся предлагать вам широкий выбор сыров, от классических
+            сортов до экзотических вариаций. У нас есть сыры разных стран,
+            различных вкусовых профилей и текстур, чтобы удовлетворить самый
+            изысканный вкус каждого гурмана. Насладитесь нашим разнообразием
+            сыров и откройте для себя новые гастрономические впечатления.
+        </p>
+        <img class="centered" src="{% static "deps/images/cheese.jpg" %}" alt="многосыра"/>
+        <p></p>
+        <h1 class="content_title">Гарантия качества продукции</h1>
+        <p class="section_text">
+            Приобретая наши сыры, вы можете быть уверены в их высочайшем
+            качестве. Мы гарантируем свежесть и натуральность каждого
+            продукта, тщательно отбирая лучшие ингредиенты. Наша команда
+            экспертов по сырам следит за каждым этапом производства, чтобы
+            предоставить вам только самое лучшее.
+        </p>
+        <img class="centered" src="{% static "deps/images/quality.jpeg" %}" alt="многосыра"/>
+        <p></p>
+{% endblock %}
+
+{% block footer %}
+    <footer class="py-4" style="background-color: #ffad29;">
+        <div class="container">
+            <p class="m-0 text-center" style="color: #a66b0d; font-size: 20px;">Copyright &copy; Semchenko Oleg 2024</p>
+        </div>
+    </footer>
+{% endblock  %}
+
+
